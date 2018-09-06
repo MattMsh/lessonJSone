@@ -1,0 +1,93 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+.megost0 {
+  fill: #b5cf54;
+  fill-opacity: .25;
+  stroke: #b5cf54;
+  stroke-width: 0;
+  cursor: pointer;
+}
+.megost0:hover {
+  fill-opacity: .75;
+  stroke-width: 3px;
+}
+#buildingInfo{
+	position: absolute;
+}
+.flat-info {
+  position: absolute;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+          transform-origin: 0 0;
+  opacity: 0;
+  -webkit-transition: opacity 200ms, -webkit-transform 200ms;
+  transition: opacity 200ms, -webkit-transform 200ms;
+  -o-transition: transform 200ms, opacity 200ms;
+  transition: transform 200ms, opacity 200ms;
+  transition: transform 200ms, opacity 200ms, -webkit-transform 200ms;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: 200; }
+  .flat-info.show {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+  .flat-info p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0; }
+  .flat-info h6 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff; }
+  .flat-info__row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    -ms-flex-align: stretch;
+        align-items: stretch;
+    color: #fff; }
+  .flat-info__floor {
+    height: 103px;
+    width: 103px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    background-color: #7b6355; }
+  .flat-info__text {
+    width: 165px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    background-color: #b5cf54; }
+  .flat-info__price {
+    background-color: #fff;
+    color: #7b6355;
+    padding: 5px; }

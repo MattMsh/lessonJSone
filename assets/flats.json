@@ -1,0 +1,342 @@
+[
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 33
+	},
+	{
+		"building": 1,
+		"available": false,
+		"price": 32
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 25
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": false,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": false,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": false,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": false,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": false,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": false,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 1,
+		"available": true,
+		"price": 30
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": false,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": false,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": false,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 27
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": false,
+		"price": 44
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	},
+	{
+		"building": 2,
+		"available": false,
+		"price": 33
+	},
+	{
+		"building": 2,
+		"available": true,
+		"price": 40
+	}	
+]

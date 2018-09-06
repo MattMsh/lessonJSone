@@ -1,0 +1,15 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+.megost0 {
+  fill: #b5cf54;
+  fill-opacity: .25;
+  stroke: #b5cf54;
+  stroke-width: 0;
+  cursor: pointer;
+}
+.megost0:hover {
+  fill-opacity: .75;
+  stroke-width: 3px;
+}
