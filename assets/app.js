@@ -14,31 +14,42 @@ var buildingInfoHtml = '<div class="flat-info show">'+
 		'</div>'+
 	'</div>';
 
-	var buindingInfo = {
+	var buindingInfoObject = {
 		b1: {
-			price: 0,
+			price: 999,
 			available: 0
 		},
 		b2: {
-			price: 0,
+			price: 999,
 			available: 0	
 		}
 	}
 
 	axios.get('/assets/flats.json').then(function(response){
 		
-		var flats = response.data;
+		const { data } = response;
 
+		var eacher = function(flat){
+		//	if(flat.available) buindingInfoObject['b' + flat.building].available++;
 
-		flats.forEach(function(flat){
 			if(flat.building == 1 && flat.available){
-				buindingInfo.b1.available++;
+				buindingInfoObject.b1.available++;
 			}
 			if(flat.building == 2 && flat.available){
-				buindingInfo.b2.available++;
+				buindingInfoObject.b2.available++;
 			}
 
-		});
+			if(flat.building == 1 && flat.price < buindingInfoObject.b1.price){
+				buindingInfoObject.b1.price = flat.price;
+			}
+			
+			if(flat.building == 2 && flat.price < buindingInfoObject.b2.price){
+				buindingInfoObject.b2.price = flat.price;
+			}
+
+		};
+
+		data.forEach(eacher);
 
 	}).catch(function(error){
 		console.log(error);
@@ -50,8 +61,8 @@ var buildingInfoHtml = '<div class="flat-info show">'+
 		var buildingInfo = document.getElementById('buildingInfo');
 		buildingInfo.style.display = 'block';
 
-		var available = buindingInfo['b'+building].available;
-		var price = buindingInfo['b'+building].price;
+		var available = buindingInfoObject['b'+building].available;
+		var price = buindingInfoObject['b'+building].price;
 
 		buildingInfo.innerHTML = buildingInfoHtml
 			.replace('{building}', building)
